@@ -5,6 +5,11 @@
     <title>Pixels: Color Picker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pixels — a simple iOS app for real-time color detection.">
+    <link rel="icon" type="image/png" href="/pixels/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/pixels/favicon.svg" />
+    <link rel="shortcut icon" href="/pixels/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/pixels/apple-touch-icon.png" />
+    <link rel="manifest" href="/pixels/site.webmanifest" />
     <style>
         body {
             margin: 0;
@@ -24,16 +29,21 @@
         }
 
         h1 {
-            font-size: 40px;
+            font-size: 48px;
             margin-bottom: 12px;
             letter-spacing: 0.5px;
             color: #000000;
         }
 
         p {
-            font-size: 17px;
-            color: #444444;
+            font-size: 22px;
+            font-weight: 400;
+            color: #000000;
             margin: 16px 0;
+        }
+
+        .app-store-badge img {
+            height: 58px;
         }
 
         footer {
@@ -80,32 +90,39 @@
     </style>
 </head>
 <body>
+    <main>
+        <div class="container">
+            <h1>Pixels</h1>
 
-<div class="container">
-    <h1>Pixels</h1>
+            <p>
+                A lightweight iOS app for<br>real-time color detection
+            </p>
 
-    <p>
-        Pixels is a lightweight iOS app for real-time color detection directly from the camera.
-    </p>
+            <a href="https://apps.apple.com/app/id6450933723" class="app-store-badge">
+                <img
+                    src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                    alt="Download on the App Store"
+                />
+            </a>
 
-    <footer>
-        <div class="footer-grid">
-            <div class="footer-column">
-                <p>© 2026 Vlad Glumov</p>
-            </div>
+            <footer>
+                <div class="footer-grid">
+                    <div class="footer-column">
+                        <p>© 2026 Vlad Glumov</p>
+                    </div>
 
-            <div class="footer-column">
-                <h3>Support</h3>
-                <a href="mailto:support@glumov.app">Send Email</a>
-            </div>
+                    <div class="footer-column">
+                        <h3>Support</h3>
+                        <a href="mailto:support@glumov.app">Send Email</a>
+                    </div>
 
-            <div class="footer-column">
-                <h3>About</h3>
-                <a href="privacy.html">Privacy Policy</a>
-            </div>
+                    <div class="footer-column">
+                        <h3>About</h3>
+                        <a href="privacy.html">Privacy Policy</a>
+                    </div>
+                </div>
+            </footer>
         </div>
-    </footer>
-</div>
-
+    </main>
 </body>
 </html>
